@@ -1,7 +1,6 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html lang="pt-br"  xmlns="http://www.w3.org/1999/xhtml">
 
-<head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
     <title>Sulnet </title>
@@ -10,38 +9,23 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css">
     <script src="https://use.fontawesome.com/7f02b4d775.js"></script>
-<!--    <link rel="stylesheet" href="http://www.tcheturbo.com.br/app/css/style.css"/>-->
+
     <link rel="stylesheet" href="css/style.css"/>
 
-    <link rel='icon' href='midia/favicon.png'/>
-<!--    <link rel='icon' href='http://www.tcheturbo.com.br/app/midia/favicon.png'/>-->
-<!--    <meta http-equiv="pragma" content="no-cache" />-->
-<!--    <meta name="description" content="" />-->
-<!--    <meta name="keywords" content="tcheturbo, internet" />-->
-<!--    <meta name="robots" content="follow" />-->
-<!--    <meta name="rating" content="general" />-->
-<!--    <meta name="author" content="Orby Internet e Design" />-->
-<!--    <meta name="language" content="pt-br" />-->
-<!---->
-<!--    <meta name='so:host' content='http://www.tcheturbo.com.br/' />-->
-<!--    <meta name='so:urlMidia' content='http://www.tcheturbo.com.br/app/midia/' />-->
-<!--    <meta name='so:urlCSS' content='http://www.tcheturbo.com.br/app/css/' />-->
-<!--    <meta name='so:urlJS' content='http://www.tcheturbo.com.br/app/js/' />-->
-<!--    <meta name='so:urlHELPERS' content='app/helpers/' />-->
-<!--    <meta name='so:controller' content='index' />-->
-<!--    <meta name='so:action' content='inicio' />-->
+    <link rel='icon' href='midia/ico.png'/>
+
 
     <!-- Page MENU TOPO -->
     <div class="topo bg-azul">
 
         <div class="col-md-6 col-sm-12">
-            <a href="http://www.tcheturbo.com.br/planos/para_voce_urbano" class="amarelo plano-topo">
+            <a href="#" class="amarelo plano-topo">
                 Para Você Urbano
             </a> <span> | </span>
-            <a href="http://www.tcheturbo.com.br/planos/para_voce_rural" class="verde plano-topo">
+            <a href="#" class="verde plano-topo">
                 Para Você Rural
             </a> <span> | </span>
-            <a href="http://www.tcheturbo.com.br/planos/para_sua_empresa" class="vermelho plano-topo">
+            <a href="#" class="vermelho plano-topo">
                 Para Sua Empresa
             </a>
 
@@ -77,7 +61,7 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="index.php" title="Sulnet">
-                <img src="imagens/logo-tema-padrao.png" alt="Tchê Turbo" class="img-responsive">
+                <img src="imagens/logo-tema-padrao.png" alt="Sulnet" class="img-responsive">
             </a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -86,7 +70,7 @@
             <div class="collapse navbar-collapse" id="menutopo">
                 <ul class="nav navbar-nav col-xs-12">
                     <li>
-                        <a href="#">Nossa Empresa</a>
+                        <a href="quem_somos.htm">Nossa Empresa</a>
                     </li>
                     <li>
                         <a href="#">Serviços</a>
@@ -95,7 +79,7 @@
                         <a href="#">Planos</a>
                     </li>
                     <li>
-                        <a href="#">Área de Cobertura</a>
+                        <a href="atuacao.htm">Área de Cobertura</a>
                     </li>
 
                     <li>
@@ -104,7 +88,7 @@
 
 
                     <li class="pull-right">
-                        <a href="#" class="externo">
+                        <a href="http://www.sntprovedores.com.br/central.php" class="externo">
                             <i class="icone webmail"></i><strong>Área do Cliente</strong></a>
                     </li>
 
@@ -126,7 +110,7 @@
             <a href="#" class="item active fill banner-institucional" style="background-image: url(midia/bg-institucional.jpg)">
                 <div class="container">
                     <div class="col-md-4 col-md-offset-1 meio">
-                        <img src="midia/institucional-banner.png" class="img-responsive">
+                        <img src="midia/baner_institucional.png" class="img-responsive">
                     </div>
                 </div>
             </a>
@@ -148,7 +132,7 @@
                 </div>
             </a>
 
-            <a href="http://www.tcheturbo.com.br/" class="item fill" style="background-image: url(midia/bg-para-voce-urbano.jpg)">
+            <a href="#" class="item fill" style="background-image: url(midia/bg-para-voce-urbano.jpg)">
                 <div class="container">
                     <div class="col-md-4 col-md-offset-1 meio">
                         <img src="midia/para-voce-urbano-branco.png" class="img-responsive">
@@ -167,7 +151,7 @@
 
 
 
-            <a href="http://www.tcheturbo.com.br/" class="item fill" style="background-image: url(midia/bg-para-voce-rural.jpg)">
+            <a href="#" class="item fill" style="background-image: url(midia/bg-para-voce-rural.jpg)">
                 <div class="container">
                     <div class="col-md-4 col-md-offset-1 meio">
                         <img src="midia/para-voce-rural-branco.png" class="img-responsive">
@@ -188,11 +172,11 @@
 
         <!-- Left and right controls -->
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <i class="fa fa-angle left" aria-hidden="true"></i>
+            <i class="fa fa-chevron-left" aria-hidden="true"></i>
             <span class="sr-only">Previous</span>
         </a>
         <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
             <span class="sr-only">Next</span>
         </a>
 
@@ -248,28 +232,55 @@
             <div class="col-md-12">
                 <div class="titulo verde text-center">
                 <span>
-                    outros <strong>serviços</strong>
+                    Nossos  <strong>Planos</strong>
                 </span>
                 </div>
             </div>
             <div class="col-md-4 text-center" >
-                <img src="midia/hospedagem.png" class="img-responsive"/>
-                <h3 class="azul">HOSPEDAGEM</h3>
-                Sua empresa sempre online e acessível
-                <a href="#" class="saiba-mais-box centered"></a>
+                <div class='package'>
+                    <div class='name'>Avançado</div>
+                    <div class='price'>R$ 85,00</div>
+                    <div class='trial'>2 MB</div>
+                    <hr>
+                    <ul>
+                        <li><span class="fa fa-desktop"></span> Navegação: 2 MEGA </li>
+                        <li><span class="fa fa-download"></span> Download: 512kbps </li>
+                        <li><span class="fa fa-upload"></span> Upload: 128kbps</li>
+                        <li><span class="fa fa-exchange"></span> Tx Transf: até 50 KB/s</li>
+                        <li><span class="fa fa-globe"></span> Suporte Ilimitado</li>
+                    </ul>
+                </div>
             </div>
 
             <div class="col-md-4 text-center" >
-                <img src="midia/backup.png" class="img-responsive"/>
-                <h3 class="azul">BACKUP</h3>
-                Armazene seus dados com total segurança
-                <a href="#" class="saiba-mais-box centered"></a>
+                <div class='package'>
+                    <div class='name'>Profissional</div>
+                    <div class='price'>R$ 99,00</div>
+                    <div class='trial'>3 MB</div>
+                    <hr>
+                    <ul>
+                        <li><span class="fa fa-desktop"></span> Navegação: 3 MEGA </li>
+                        <li><span class="fa fa-download"></span> Download: 512kbps </li>
+                        <li><span class="fa fa-upload"></span> Upload: 128kbps</li>
+                        <li><span class="fa fa-exchange"></span> Tx Transf: até 50 KB/s</li>
+                        <li><span class="fa fa-globe"></span> Suporte Ilimitado</li>
+                    </ul>
+                </div>
             </div>
             <div class="col-md-4 text-center" >
-                <img src="midia/cloud.png" class="img-responsive"/>
-                <h3 class="azul">CLOUD</h3>
-                Seus arquivos acessíveis de qualquer local
-                <a href="#" class="saiba-mais-box centered"></a>
+                <div class='package'>
+                    <div class='name'>Exclusivo</div>
+                    <div class='price'>R$ 160,00</div>
+                    <div class='trial'>5 MB</div>
+                    <hr>
+                    <ul>
+                        <li><span class="fa fa-desktop"></span> Navegação: 5 MEGA </li>
+                        <li><span class="fa fa-download"></span> Download: 512kbps </li>
+                        <li><span class="fa fa-upload"></span> Upload: 128kbps</li>
+                        <li><span class="fa fa-exchange"></span> Tx Transf: até 50 KB/s</li>
+                        <li><span class="fa fa-globe"></span> Suporte Ilimitado</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <br/><br/><br/>
@@ -282,7 +293,7 @@
             <div class="arrow-down"></div>
 
             <div class="col-md-6 text-center">
-                <img class="img-responsive" src="midia/area-atuacao.png" />
+                <img class="img-responsive" src="midia/areadeatuacao.png" />
 
             </div>
 
@@ -351,21 +362,10 @@
                         </div>
                         <div class="col-md-9">
                             <span class="vermelho">Matriz</span><br/>
-                            <strong>(55) 3199-9150</strong><br/>
+                            <strong>(55) 3199-9150</strong><br
+                        </div>
+
                             Rua Presidente Kennedy, 897 - Sala 01G, Centro, Frederico Westphalen-RS
-                        </div>
-                        <div class="clear-fix"></div>
-                    </div>
-                    <div class="row" style="margin-top: 15px">
-                        <div class="col-md-3" >
-                            <i class="icone mark bg-vermelho"></i>
-                        </div>
-                        <div class="col-md-9">
-                            <span class="vermelho">Filial</span><br/>
-                            <strong>(55) 2121 0000</strong><br/>
-                            Rua Francisco Pinheiro, 332 - Sala 01, Centro, Palmeira
-                            das Missões-RS
-                        </div>
                         <div class="clear-fix"></div>
                     </div>
 
@@ -386,7 +386,7 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
-    <script src="http://www.tcheturbo.com.br/app/js/uteis.js"></script>
+    <script src="js/uteis.js"></script>
 
 
 
