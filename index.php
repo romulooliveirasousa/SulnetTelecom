@@ -110,7 +110,7 @@
             <a href="#" class="item active fill banner-institucional" style="background-image: url(midia/bg-institucional.jpg)">
                 <div class="container">
                     <div class="col-md-4 col-md-offset-1 meio">
-                        <img src="midia/baner_institucional.png" class="img-responsive">
+                        <img src="midia/baner_institucional2.png" class="img-responsive">
                     </div>
                 </div>
             </a>
