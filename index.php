@@ -70,16 +70,16 @@
             <div class="collapse navbar-collapse" id="menutopo">
                 <ul class="nav navbar-nav col-xs-12">
                     <li>
-                        <a href="quem_somos.htm">Nossa Empresa</a>
+                        <a href="quem_somos.php">Nossa Empresa</a>
                     </li>
                     <li>
                         <a href="#">Serviços</a>
                     </li>
                     <li>
-                        <a href="#">Planos</a>
+                        <a href="planos.php">Planos</a>
                     </li>
                     <li>
-                        <a href="atuacao.htm">Área de Cobertura</a>
+                        <a href="atuacao.php">Área de Cobertura</a>
                     </li>
 
                     <li>

@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <script src="js/webfontloader.js" style=""></script><script src="js/7f02b4d775.js"></script>
     <link rel="stylesheet" href="css/style.css">
+
     <link rel='icon' href='midia/ico.png'/>
+
+
     <!-- Page MENU TOPO -->
     <link rel="stylesheet" href="css/7f02b4d775.css" media="all">
     <script type="text/javascript" charset="UTF-8" src="css/common.js"></script>
@@ -43,6 +46,7 @@
     </div>
 </div>
 
+
 <!-- Navigation -->
 <nav class="navbar menuNavBar" role="navigation">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -59,100 +63,131 @@
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="col-lg-10 col-md-8">
+
         <div class="collapse navbar-collapse" id="menutopo">
             <ul class="nav navbar-nav col-xs-12">
                 <li>
-                    <a href="quem_somos.htm">Nossa Empresa</a>
+                    <a href="quem_somos.php">Nossa Empresa</a>
                 </li>
                 <li>
                     <a href="#">Serviços</a>
                 </li>
                 <li>
-                    <a href="#">Planos</a>
+                    <a href="planos.php">Planos</a>
                 </li>
                 <li>
-                    <a href="atuacao.htm">Área de Cobertura</a>
+                    <a href="atuacao.php">Área de Cobertura</a>
                 </li>
 
                 <li>
                     <a href="contato.php">Contato</a>
                 </li>
+
+
                 <li class="pull-right">
                     <a href="http://www.sntprovedores.com.br/central.php" class="externo">
                         <i class="icone webmail"></i><strong>Área do Cliente</strong></a>
                 </li>
+
+
+
             </ul>
         </div>
     </div>
     <!-- /.navbar-collapse -->
 
 </nav>
-
-
 <div class="breadcrumb">
     <nav class="container">
         <a href="index.php" title="Home">Home</a>
         <i class="fa fa-angle-right" aria-hidden="true"></i>
-        Área de Atuação
+        Nossos Planos
     </nav>
 </div>
-
+<div class="box-titulo fill" style="background-image:url('midia/titulo-hospedagem.jpg');">
+    <div class="container text-center">
+        <div class="meio">
+            <h1>NOSSOS PLANOS</h1>
+        </div>
+    </div>
+</div>
 <!--  -->
 <div class="divisor">
     <div class="col-md-4 bg-verde"></div>
     <div class="col-md-4 bg-vermelho"></div>
     <div class="col-md-4 bg-amarelo"></div>
 </div>
+<div class="container servicos" style="margin-bottom: 0">
 
-<div class="area-atuacao" style="margin-top: 5px">
-    <div class="container">
-        <div class="col-md-6 text-center">
-            <br>
-            <br><br><br><br><br>
-            <img class="img-responsive" src="midia/areadeatuacao.png">
-        </div>
-        <div class="col-md-5 col-md-offset-1">
-            <h2>Área de <strong>Atuação</strong></h2>
-            <p>
-                Para nós, conectar é encurtar distâncias. Por isso,
-                dispomos de moderna infraestrutura, distribuída em uma ampla área No Vale do Araguaia
-            </p>
+    <div class="row">
 
-            <div class="contato">
-                <br>
-                <h3 class="amarelo">
-                    Cidades atendidas
-                </h3>
-                Selecione uma cidade abaixo para consultar os serviços oferecidos.<br><br>
+        <div class="servicosHome">
 
-                <form class="atuacao" role="form" method="post" action="#" enctype="application/x-www-form-urlencoded" data-display=".cidadesServicos
-        <div class="form-group">
-                <label style="color: #fff">Cidade </label>
-                <select class="form-control" name="cidade">
-                    <option value="1" selected="selected">Paraíso do Tocantins</option>
-                    <option value="2">Divinópolis do Tocantins</option>
-                    <option value="3">Marianópolis do Tocantins</option>
-                    <option value="4">Santana do Araguaia</option>
+            <div class="container"><br><br>
 
-                </select>
+                <div class="col-md-4 text-center" >
+                    <div class='package'>
+                        <div class='name'>Avançado</div>
+                        <div class='price'>R$ 85,00</div>
+                        <div class='trial'>2 MB</div>
+                        <hr>
+                        <ul>
+                            <li><span class="fa fa-desktop"></span> Navegação: 2 MEGA </li>
+                            <li><span class="fa fa-download"></span> Download: 512kbps </li>
+                            <li><span class="fa fa-upload"></span> Upload: 128kbps</li>
+                            <li><span class="fa fa-exchange"></span> Tx Transf: até 50 KB/s</li>
+                            <li><span class="fa fa-globe"></span> Suporte Ilimitado</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center" >
+                    <div class='package'>
+                        <div class='name'>Profissional</div>
+                        <div class='price'>R$ 99,00</div>
+                        <div class='trial'>3 MB</div>
+                        <hr>
+                        <ul>
+                            <li><span class="fa fa-desktop"></span> Navegação: 3 MEGA </li>
+                            <li><span class="fa fa-download"></span> Download: 512kbps </li>
+                            <li><span class="fa fa-upload"></span> Upload: 128kbps</li>
+                            <li><span class="fa fa-exchange"></span> Tx Transf: até 50 KB/s</li>
+                            <li><span class="fa fa-globe"></span> Suporte Ilimitado</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center" >
+                    <div class='package'>
+                        <div class='name'>Exclusivo</div>
+                        <div class='price'>R$ 160,00</div>
+                        <div class='trial'>5 MB</div>
+                        <hr>
+                        <ul>
+                            <li><span class="fa fa-desktop"></span> Navegação: 5 MEGA </li>
+                            <li><span class="fa fa-download"></span> Download: 512kbps </li>
+                            <li><span class="fa fa-upload"></span> Upload: 128kbps</li>
+                            <li><span class="fa fa-exchange"></span> Tx Transf: até 50 KB/s</li>
+                            <li><span class="fa fa-globe"></span> Suporte Ilimitado</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="verde">
-                <button type="submit" class="saiba-mais-full bg-verde text-center" style="margin-top: 0">Pesquisar</button>
-            </div>
-            <br>
-            </form>
+            <br/><br/><br/>
         </div>
+        <div class="clearfix"></div>
+
     </div>
+
 </div>
-</div>
-<div class="cidadesServicos">
-</div>
+
+
+
 <div class="divisor">
     <div class="col-md-4 bg-verde"></div>
     <div class="col-md-4 bg-vermelho"></div>
     <div class="col-md-4 bg-amarelo"></div>
-</div>
 
+</div>
 
 <div class="footer">
     <div class="container">

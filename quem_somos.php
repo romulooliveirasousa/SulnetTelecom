@@ -63,28 +63,34 @@
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="col-lg-10 col-md-8">
+
         <div class="collapse navbar-collapse" id="menutopo">
             <ul class="nav navbar-nav col-xs-12">
                 <li>
-                    <a href="quem_somos.htm">Nossa Empresa</a>
+                    <a href="quem_somos.php">Nossa Empresa</a>
                 </li>
                 <li>
                     <a href="#">Serviços</a>
                 </li>
                 <li>
-                    <a href="#">Planos</a>
+                    <a href="planos.php">Planos</a>
                 </li>
                 <li>
-                    <a href="atuacao.htm">Área de Cobertura</a>
+                    <a href="atuacao.php">Área de Cobertura</a>
                 </li>
 
                 <li>
                     <a href="contato.php">Contato</a>
                 </li>
+
+
                 <li class="pull-right">
                     <a href="http://www.sntprovedores.com.br/central.php" class="externo">
                         <i class="icone webmail"></i><strong>Área do Cliente</strong></a>
                 </li>
+
+
+
             </ul>
         </div>
     </div>
